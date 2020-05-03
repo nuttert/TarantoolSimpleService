@@ -1,4 +1,4 @@
-package = 'service'
+package = 'kv-drive'
 version = 'scm-1'
 source  = {
     url = '/dev/null',
