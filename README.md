@@ -1,8 +1,18 @@
 # TarantoolSimpleService
-Запуск:
+Запуск локально(также необходимо будет провести настройки в админке на ручке /admin):
 ```
 cartridge build
 cartridge start
+```
+# Тестинг через готовый сервер:
+```
+Host:93.123.249.201
+Port: 8081
+
+Пример:
+curl -X GET 93.123.249.201:8081/kv/10
+response:
+{"info":"Object not found: 404"}
 ```
 
 **POST,GET,PUT,DELETE** запросы:
