@@ -34,7 +34,7 @@ response:
 {"info":"Deleted"}
 ```
 
-Некоторые неккоректные запросы:
+Некоторые некорректные запросы:
 ```
 curl -X POST localhost:8081/kv --data '{"key":"10","value":{"abc:1}}'
 response:
